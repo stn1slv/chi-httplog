@@ -1,13 +1,3 @@
-httplog
-=======
-
-Powerful structured logging package for HTTP request logging in Go. It's fork of github.com/go-chi/httplog with HTTP body dumps improvement.
-
-## Example
-
-(see [example/](./example/main.go))
-
-```go
 package main
 
 import (
@@ -67,10 +57,3 @@ func main() {
 
 	http.ListenAndServe(":5555", r)
 }
-
-
-```
-
-## License
-
-MIT
